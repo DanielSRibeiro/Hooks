@@ -5,10 +5,12 @@ import Home from "./src/routes/home";
 export default function App() {
   return (
     <View style={styles.container}>
+      <Text>Test</Text>
       <SafeAreaView>
         <StatusBar style="auto" />
         <Home />
       </SafeAreaView>
+      <Text>Test</Text>
     </View>
   );
 
